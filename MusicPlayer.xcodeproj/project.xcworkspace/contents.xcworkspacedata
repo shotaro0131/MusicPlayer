@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:God"
+      name = "God">
+      <Group
+         location = "group:Images"
+         name = "Images">
+         <FileRef
+            location = "group:Bach.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:Beethoven.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:Pachelbel.jpg">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Songs"
+         name = "Songs">
+         <FileRef
+            location = "group:aria.mp3">
+         </FileRef>
+         <FileRef
+            location = "group:cannon.mp3">
+         </FileRef>
+         <FileRef
+            location = "group:elise.mp3">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "self:MusicPlayer.xcodeproj">
    </FileRef>

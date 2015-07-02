@@ -13,6 +13,7 @@
 		5189E9B91B45440A00798804 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5189E9B81B45440A00798804 /* Images.xcassets */; };
 		5189E9BC1B45440A00798804 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5189E9BA1B45440A00798804 /* LaunchScreen.xib */; };
 		5189E9C81B45440A00798804 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5189E9C71B45440A00798804 /* MusicPlayerTests.swift */; };
+		5189E9D41B454FF200798804 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5189E9D31B454FF200798804 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5189E9C11B45440A00798804 /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5189E9C61B45440A00798804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5189E9C71B45440A00798804 /* MusicPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerTests.swift; sourceTree = "<group>"; };
+		5189E9D31B454FF200798804 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5189E9D41B454FF200798804 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		5189E9A31B45440A00798804 = {
 			isa = PBXGroup;
 			children = (
+				5189E9D31B454FF200798804 /* AVFoundation.framework */,
 				5189E9AE1B45440A00798804 /* MusicPlayer */,
 				5189E9C41B45440A00798804 /* MusicPlayerTests */,
 				5189E9AD1B45440A00798804 /* Products */,
